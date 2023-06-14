@@ -6,11 +6,7 @@ Hangman is a python representation of a game, where you are welcome to guees a s
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Hangman.
-
-```bash
-pip install Hangman
-```
+Hangman was created with version 3.11 of python.
 
 ## Usage
 
@@ -24,16 +20,9 @@ Hangman.start_game()
 
 ## Timeline
 
-wes a project done in one day.
-
-## Timeline
-
-wes a project done in one day.
+It was a project done in one day.
 
 ## Personal situation
 
-This project was done as part of the AI Boocamp at BeCode.org.
+This project was done as part of the AI Boocamp at BeCode.org by Cesar Mendoza.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
