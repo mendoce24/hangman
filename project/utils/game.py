@@ -18,7 +18,10 @@ class Hangman:
         #valid that the character is a letter
         while True : 
             letter = input("Enter a letter, please: ")
-            if letter.isalpha():
+            if letter in self.wrongly_guessed_letters or letter in self.correctly_guessed_letters :
+                print("You had already tried with this letter !")
+                continue
+            elif letter.isalpha():
                 break
             print("Enter a valid letter, please!")
 
